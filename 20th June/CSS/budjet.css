@@ -1,0 +1,98 @@
+body{background-color: aquamarine;
+    margin:10% 40%;
+}
+hr{width: 90%;
+margin-top: 25px;}
+.first_parag{margin-top: 20px;
+    margin-left: 10px;
+font-family: 'Arial', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;}
+.upper{width: 320px; max-height: 80px;
+    background-color: coral;
+    border-radius: 15px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+.balance, .figure{margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: cornsilk;}
+.balance{font-size: 12px}
+
+.right_circle{width: 25px; height: 28px;
+    float: right;background-color: rgb(19, 19, 1);
+    border-radius: 80%;
+    margin-right: 13px; margin-top: -15px;
+}
+.left_circle{width: 25px; height: 27px;
+    margin-right: -15px; margin-top: -15px;
+    border: 1px solid whitesmoke;
+    border-radius: 80%; 
+    float: right;}
+.down_chart{width: 320px; height: 320px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px 0px;
+
+}
+.chart_parent{display: flex;
+    rotate: 900deg;
+    padding-left: 15px;
+    margin-top: 50px; }
+
+.text_parent{display: flex;
+margin-top: 5px;}
+.days{margin-right: 2px;
+    margin-left: 20px;
+    font-family: 'monospace','Courier New', Courier;
+    font-size: 12px;}
+/* .sun{margin-left: 0px;} */
+
+.first{width: 25px; height: 35px;
+    background-color: coral;
+    border-radius: 5px;
+margin-left:20px;}
+.second{width: 25px; height: 55px;
+    background-color: coral;
+    border-radius: 5px;  
+    margin-left: 20px  }
+.third{background-color: rgb(9, 105, 105);
+    width: 25px; height: 82px;
+    border-radius: 5px; 
+margin-left: 20px;}
+.forth{width: 25px; height: 50px;
+    background-color: coral;
+    border-radius: 5px;
+margin-left: 20px;}
+.fifth{width: 25px; height: 40px;
+    background-color: coral;
+    border-radius: 5px;
+margin-left: 20px;}
+.sixth{width: 25px; height: 65px;
+    background-color: coral;
+    border-radius: 5px;
+margin-left: 20px;}
+.seventh{width: 25px; height: 43px;
+    background-color: coral;
+    border-radius: 5px;
+margin-left: -2px;}
+
+.buttom{display: flex; width: 300px;
+    margin-left: 11px; margin-top: 15px;}
+.buttom_left{max-height: 20px;
+    margin-right: 10px;}
+.month-this{font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top: 20px; margin-bottom: -10px;
+    color: rgb(122, 122, 122);}
+.month{font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(122, 122, 122);}
+.medium{font-size: 15px;
+margin-bottom: -10px;
+color: black;}
+.left_figure{font-size: 20px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.buttom_right{margin-left: 112px; text-align: right;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
