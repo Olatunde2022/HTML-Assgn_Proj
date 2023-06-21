@@ -1,0 +1,66 @@
+p,h4,h1{text-align: center;
+    margin-top: 10px;
+}
+
+.left{background-color: rgb(2, 2, 128);
+    width: 280px; height: 350px;
+    border-radius: 20px;    
+    margin-left: 20px;
+    
+
+
+}
+.left_child{
+    width: 100px; height: 100px;
+    background-color: rgb(1, 1, 68);
+    border-radius: 50%;
+   
+}
+.right{width: 280px; height: 350px;
+    background-color: rgb(138, 222, 222);
+    border-radius: 20px;
+    padding-left:2%;
+    
+}
+.parent{display: flex;
+}
+
+.first_box{display: flex;
+    width: 90%; height: 40px;
+    border-radius: 10px;
+    background-color: rgb(231, 154, 99);
+    margin-bottom: 10px;
+}
+.reaction{color: crimson;}
+.memory{color: rgb(212, 179, 11) ;}
+.verbal{color: green;}
+.visual{color:rgb(27, 27, 27) ;}
+
+.mid_num{color: rgb(27, 27, 27);}
+.last_num{color: grey;}
+
+.second_box{display: flex;
+    width: 90%; height: 40px;
+    border-radius: 10px;
+    background-color: greenyellow; 
+    margin-bottom: 10px;       }
+    
+.third_box{display: flex;
+    width: 90%; height: 40px;
+    border-radius: 10px;
+    background-color: rgb(27, 231, 27);    
+    margin-bottom: 10px;    }
+
+.forth_box{display: flex;
+    width: 90%; height: 40px;
+    border-radius: 10px;
+    background-color: rgb(162, 162, 162);      
+    margin-bottom: 25px;  }
+
+button{background-color: rgb(47, 47, 9);
+    color: bisque;
+border: 0px;
+width: 80%; height: 40px;
+border-radius: 20px;
+}
+h5{font-size: medium;}
