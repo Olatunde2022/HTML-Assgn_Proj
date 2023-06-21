@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budjet</title>
+    <link rel="stylesheet" href="../20th June/CSS/budjet.css">
+    <style>
+        body{background-color: aquamarine;
+            margin:10% 40%;
+        }
+        hr{width: 90%;
+        margin-top: 20px;}
+        .first_parag{margin-top: 20px;
+            margin-left: 10px;
+        font-family: 'Arial', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;}
+        .upper{width: 320px; max-height: 80px;
+            background-color: coral;
+            border-radius: 15px;
+            padding: 5px 0px;
+            margin-bottom: 10px;
+        }
+        .balance, .figure{margin-left: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: cornsilk;}
+        .balance{font-size: 12px}
+
+        .right_circle{width: 25px; height: 28px;
+            float: right;background-color: black;
+            border-radius: 80%;
+            margin-right: 20px; margin-top: -15px;
+        }
+        .left_circle{width: 25px; height: 27px;
+            margin-right: -15px; margin-top: -15px;
+            border: 1px solid whitesmoke;
+            border-radius: 80%; 
+            float: right;}
+        .down_chart{width: 320px; height: 320px;
+            border-radius: 15px;
+            background-color: white;
+            padding: 5px 0px;
+
+        }
+        .chart_parent{display: flex;
+            rotate: 900deg;
+            padding-left: 15px;
+            margin-top: 50px; }
+
+        .text_parent{display: flex;
+        margin-top: 5px;}
+        .days{margin-right: 2px;
+            margin-left: 20px;
+            font-family: 'monospace','Courier New', Courier;
+            font-size: 12px;}
+        /* .sun{margin-left: 0px;} */
+
+        .first{width: 25px; height: 33px;
+            background-color: coral;
+            border-radius: 5px;
+        margin-left:20px;}
+        .second{width: 25px; height: 53px;
+            background-color: coral;
+            border-radius: 5px;  
+            margin-left: 20px  }
+        .third{background-color: rgb(9, 105, 105);
+            width: 25px; height: 80px;
+            border-radius: 5px; 
+        margin-left: 20px;}
+        .forth{width: 25px; height: 48px;
+            background-color: coral;
+            border-radius: 5px;
+        margin-left: 20px;}
+        .fifth{width: 25px; height: 38px;
+            background-color: coral;
+            border-radius: 5px;
+        margin-left: 20px;}
+        .sixth{width: 25px; height: 63px;
+            background-color: coral;
+            border-radius: 5px;
+        margin-left: 20px;}
+        .seventh{width: 25px; height: 41px;
+            background-color: coral;
+            border-radius: 5px;
+        margin-left: -2px;}
+        
+        .buttom{display: flex;}
+        .this_month{max-height: 20px;
+        margin-right: 20px;}
+        .month{font-size: 10px;}
+        .last_month{margin-left: 150px}
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="upper">
+        <p class="balance">My balance</p>       
+        
+        <div class="right_circle"></div>
+        <div class="left_circle"></div>
+        <p class="figure">$950.68</p>
+    </div>
+
+    <div class="down_chart">
+        <p class="first_parag">Spending - Last 7 days</p>
+        <div class="chart_parent">
+            <div class="seventh"></div>
+            <div class="sixth"></div>
+            <div class="fifth"></div>
+            <div class="forth"></div>
+            <div class="third"></div>
+            <div class="second"></div>
+            <div class="first"></div>
+        </div>
+
+        <div class="text_parent">
+            <div class="days sun">Sun</div>
+            <div class="days">Sat</div>
+            <div class="days">Fri</div>
+            <div class="days">Thu</div>
+            <div class="days">Wed</div>
+            <div class="days">Tue</div>
+            <div class="days">Mon</div> 
+        </div>
+        <hr>
+        <div class="buttom">
+            <div class="this_month">
+                <p class="month">Total this month</p>
+                <h3 class="month">$498.35</h3>
+            </div>
+            <div class="last_month">
+                <p class="month">+2.4%</p>
+                <p class="month">from last month</p>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
