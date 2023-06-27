@@ -1,23 +1,48 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
 p,h4,h1{text-align: center;
     margin-top: 10px;
 }
 
-.left{background-color: rgb(2, 2, 128);
+.left{background-color: rgb(2, 2, 157);
     width: 280px; height: 350px;
     border-radius: 20px;    
-    margin-left: 20px;
-    
-
-
+    margin-left: 0px;
+    padding: 15px;
 }
 .left_child{
-    width: 100px; height: 100px;
-    background-color: rgb(1, 1, 68);
+    width: 110px; height: 110px;
+    background-color: rgb(0, 0, 114);
+
     border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 35px;
+    padding: 10%;
    
 }
+.seventy_six{margin-bottom:12px;
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.of_100{margin-top: px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(244, 223, 194);}
+.great{margin-top: 25px;
+    margin-bottom: -10px;
+    color: white;
+    font-size: 25px;}
+.buttom_text{font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(244, 223, 194);
+    text-align: center;
+    margin: 20px;
+}
+.text_result{color: rgb(244, 223, 194);
+font-size: large;}
 .right{width: 280px; height: 350px;
-    background-color: rgb(138, 222, 222);
+    background-color: white;
     border-radius: 20px;
     padding-left:2%;
     
@@ -30,14 +55,32 @@ p,h4,h1{text-align: center;
     border-radius: 10px;
     background-color: rgb(231, 154, 99);
     margin-bottom: 10px;
-}
-.reaction{color: crimson;}
-.memory{color: rgb(212, 179, 11) ;}
-.verbal{color: green;}
-.visual{color:rgb(27, 27, 27) ;}
+    }
+.reaction{color: crimson;
+margin-left: 15px;
+margin-top: 13px;}
+.memory{color: rgb(212, 179, 11) ;
+    margin-left: 15px;
+    margin-top: 13px;}
+.verbal{color: green;
+    margin-left: 15px;
+    margin-top: 13px;}
+.visual{color:rgb(27, 27, 27) ;
+    margin-left: 15px;
+    margin-top: 13px;}
 
-.mid_num{color: rgb(27, 27, 27);}
-.last_num{color: grey;}
+.mid_num{color: rgb(27, 27, 27);
+    margin-left: 70px;
+    margin-top: 13px;
+    font-family:  Helvetica, sans-serif;}
+.last_num{color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 13px;
+    }
+    .more_space{
+        margin-left: 89px;
+    }
 
 .second_box{display: flex;
     width: 90%; height: 40px;
@@ -59,8 +102,23 @@ p,h4,h1{text-align: center;
 
 button{background-color: rgb(47, 47, 9);
     color: bisque;
-border: 0px;
-width: 80%; height: 40px;
-border-radius: 20px;
+    border: 0px;
+    width: 90%; height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+
 }
-h5{font-size: medium;}
+h5{font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 20PX;
+    }
+.parent_section{width:560px ;height: 350px;
+background-color: white;
+box-shadow: 5px 10px 8px #666666;
+border-radius: 20px;
+
+}
+body{margin: 20%;}
+@media only screen and (max-width: 425px) and (min_width:320px){
+
+}
